@@ -26,11 +26,11 @@
   },
   "config": {
     "validate-commit-msg": {
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "validate-commit-msg"
+      "husky": {
+        "hooks": {
+          "commit-msg": "validate-commit-msg"
+        }
+      }
     }
   }
 }
